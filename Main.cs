@@ -13,7 +13,7 @@ public class Main : MelonMod
     
     public override void OnInitializeMelon()
     {
-        Category.CreateEntry("Enabled", true, "Enabled", "Self explanatory");
+        Enabled = Category.CreateEntry("Enabled", true, "Enabled", "Self explanatory");
         ConsistentGive = Category.CreateEntry("ConsistentGive", true, "Consistently Give Money", "If enabled, your money will be set to a high amount every time the level is changed.");
         MoneyAmount = Category.CreateEntry("MoneyAmount", 99999999, "Money Amount", "The amount of money to give.");
         OverrideAmount = Category.CreateEntry("OverrideAmount", true, "Override Money Amount", "If enabled, your money will be set to the amount specified instead of added to. If disabled, it adds to your original starting money.");
