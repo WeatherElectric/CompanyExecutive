@@ -34,5 +34,4 @@ public class Main : MelonMod
             _hasGiven = true;
         }
     }
-    
 }

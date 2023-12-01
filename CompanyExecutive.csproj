@@ -36,6 +36,9 @@
 
     <ItemGroup>
       <None Remove="References\**" />
+      <None Remove="LICENSE" />
+      <None Remove="README.md" />
+      <None Remove=".gitignore" />
     </ItemGroup>
 
 </Project>
