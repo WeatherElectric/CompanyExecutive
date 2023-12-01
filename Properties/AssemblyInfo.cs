@@ -1,5 +1,5 @@
 ﻿[assembly:
-    MelonInfo(typeof(CompanyExecutive.Main), "CompanyExecutive", "1.0.0.0",
+    MelonInfo(typeof(CompanyExecutive.Main), "CompanyExecutive", "1.1.0.0",
         "SoulWithMae", null)]
 [assembly: MelonColor(ConsoleColor.White)]
 

@@ -7,8 +7,8 @@
         <LangVersion>10</LangVersion>
         <Company>Weather Electric</Company>
         <Product>Company Executive</Product>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <FileVersion>1.0.0.0</FileVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <FileVersion>1.1.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
