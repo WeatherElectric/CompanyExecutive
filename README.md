@@ -10,6 +10,7 @@ Most likely works in multiplayer
 ## Preferences
 
 ConsistentGive = If enabled, your money will be set every time the level changes
-MoneyAmount = Amount of money to get
-OverrideAmount = If enabled, your money will be set to the amount specified instead of added to. If disabled, it adds to your original starting money.
 
+MoneyAmount = Amount of money to get
+
+OverrideAmount = If enabled, your money will be set to the amount specified instead of added to. If disabled, it adds to your original starting money.
