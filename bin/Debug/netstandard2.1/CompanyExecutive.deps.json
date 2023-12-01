@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "CompanyExecutive/1.0.0": {
+        "dependencies": {
+          "Assembly-CSharp": "0.0.0.0",
+          "MelonLoader": "0.5.7.0",
+          "Unity.Netcode.Runtime": "0.0.0.0",
+          "UnityEngine.CoreModule": "0.0.0.0"
+        },
+        "runtime": {
+          "CompanyExecutive.dll": {}
+        }
+      },
+      "Assembly-CSharp/0.0.0.0": {
+        "runtime": {
+          "Assembly-CSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MelonLoader/0.5.7.0": {
+        "runtime": {
+          "MelonLoader.dll": {
+            "assemblyVersion": "0.5.7.0",
+            "fileVersion": "0.5.7.0"
+          }
+        }
+      },
+      "Unity.Netcode.Runtime/0.0.0.0": {
+        "runtime": {
+          "Unity.Netcode.Runtime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.CoreModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.CoreModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyExecutive/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assembly-CSharp/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MelonLoader/0.5.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.Netcode.Runtime/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.CoreModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
