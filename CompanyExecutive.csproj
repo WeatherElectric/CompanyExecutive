@@ -1,29 +1,26 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <LangVersion>10</LangVersion>
-        <Company>Weather Electric</Company>
-        <Product>Company Executive</Product>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <FileVersion>1.1.0.0</FileVersion>
+        <TargetFramework>net35</TargetFramework>
+        <AssemblyName>CompanyExecutive</AssemblyName>
+        <Description>My first plugin</Description>
+        <Version>1.0.0</Version>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <Company>SoulWIthMae</Company>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <FileVersion>2.0.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Assembly-CSharp">
-        <HintPath>References\Assembly-CSharp.dll</HintPath>
-      </Reference>
-      <Reference Include="MelonLoader">
-        <HintPath>References\MelonLoader.dll</HintPath>
-      </Reference>
-      <Reference Include="Unity.Netcode.Runtime">
-        <HintPath>References\Unity.Netcode.Runtime.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEngine.CoreModule">
-        <HintPath>References\UnityEngine.CoreModule.dll</HintPath>
-      </Reference>
+        <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all"/>
+        <PackageReference Include="BepInEx.Core" Version="5.*"/>
+        <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*"/>
+        <PackageReference Include="UnityEngine.Modules" Version="5.6.0" IncludeAssets="compile"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all"/>
     </ItemGroup>
 
     <ItemGroup>
@@ -37,8 +34,7 @@
     <ItemGroup>
       <None Remove="References\**" />
       <None Remove="LICENSE" />
-      <None Remove="README.md" />
       <None Remove=".gitignore" />
+      <None Remove="README.md" />
     </ItemGroup>
-
 </Project>
